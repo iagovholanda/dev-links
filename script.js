@@ -6,14 +6,8 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute(
-      "src",
-      "https://avatars.githubusercontent.com/u/47476786?v=4"
-    )
+    img.setAttribute("src", "./assets/avatar.jpg")
   } else {
-    img.setAttribute(
-      "src",
-      "https://avatars.githubusercontent.com/u/47476786?v=4"
-    )
+    img.setAttribute("src", "./assets/avatar.jpg")
   }
 }
